@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+/* use rem when styling text headers */
+h1 {
+  font-size: 5.625rem;
+  margin-top: 0;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0 auto;
+  color: #66bfbf;
+  line-height: 2.5;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #66bfbf;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #eaf6f6;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+.footer-link {
+  color: #11999e;
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  position: relative;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  height: 125px;
+  color: white;
+  position: relative;
+  padding-top: 25px;
+}
+
+.btn {
+  background-color: #66bfbf;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.code-image {
+  width: 25%;
+  border-radius: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.chili-image {
+  width: 25%;
+  border-radius: 100px;
+  float: right;
+  margin-left: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile-photo {
+  height: 200px;
+  border-radius: 100px;
+}
+
+.profile-text {
+  text-align: center;
+  color: #40514e;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-me {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.contact-me a {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.contact-me p {
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 25px;
+  width: 75%;
+  margin: auto;
+}
